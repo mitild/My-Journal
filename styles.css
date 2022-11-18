@@ -158,25 +158,23 @@ Home Layout
 
 .posts-wrapper {
   width: 90%;
-  margin: auto;
+  margin: 6.25% auto 5% auto;
 }
 
 .posts {
   width: 90%;
   max-width: 700px;
-  /* min-width: 325px; */
+  min-width: 325px;
   display: grid;
-  grid-template: 
+  grid-template:
       repeat(auto-fit, minmax(393px, 1fr)) /
-      repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1.5em;
-  /* margin: 6.25% 5% 5% 5%; */
+      repeat(auto-fit, minmax(90vw, 1fr));
 }
 
 .post {
   display: flex;
   flex-direction: column;
-  /* min-width: 300px; */
+  min-width: 300px;
 }
 
 .post img {
@@ -235,7 +233,13 @@ Home Media Queries
 
   .posts {
     margin-top: 3.3125em;
+    grid-template:
+      repeat(auto-fit, minmax(393px, 1fr)) /
+      repeat(auto-fit, minmax(370px, 1fr));
+    gap: 1.5em;
+    /* margin: auto; */
   }
+
   .header-wrapper,
   .hero-container,
   .posts {
