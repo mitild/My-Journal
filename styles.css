@@ -322,6 +322,7 @@ About Layout
 
 .about-hero-wrapper {
   width: 90%;
+  max-width: 1500px;
 }
 
 .profile-pic {
@@ -333,6 +334,10 @@ About Layout
   font-size: 2.1775rem;
   margin-bottom: .45em;
   padding: 0;
+}
+
+.about-intro-text {
+  max-width: 1200px;
 }
 
 .about-text {
