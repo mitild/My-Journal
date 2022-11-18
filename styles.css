@@ -90,6 +90,12 @@ ul a {
   margin-right: .1875em;
 }
 
+.header-container {
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -98,8 +104,8 @@ ul a {
   min-width: 322px;
   max-width: 700px;
   margin: auto;
+  margin: 0;
   padding: 1.125em 0;
-  background-color: #FFF;
 }
 
 .logo-wrapper {
@@ -150,22 +156,27 @@ Home Layout
 
 /* Posts */
 
+.posts-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
 .posts {
   width: 90%;
   max-width: 700px;
-  min-width: 325px;
+  /* min-width: 325px; */
   display: grid;
   grid-template: 
       repeat(auto-fit, minmax(393px, 1fr)) /
       repeat(auto-fit, minmax(400px, 1fr));
   gap: 1.5em;
-  margin: 6.25% 5% 5% 5%;
+  /* margin: 6.25% 5% 5% 5%; */
 }
 
 .post {
   display: flex;
   flex-direction: column;
-  min-width: 300px;
+  /* min-width: 300px; */
 }
 
 .post img {
