@@ -238,18 +238,6 @@ Home Media Queries
     gap: 1.5em;
   }
 
-  /* .posts {
-    margin-top: 3.3125em;
-    grid-template:
-      repeat(auto-fit, minmax(393px, 1fr)) /
-      repeat(auto-fit, minmax(350px, 1fr));
-    justify-items: center;
-    align-items: end;
-    gap: 1.5em;
-    max-width: 100%;
-    width: 90%;
-  } */
-
   .header-wrapper,
   .hero-container {
     max-width: 100%;
