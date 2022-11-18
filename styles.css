@@ -161,17 +161,6 @@ Home Layout
   margin: 6.25% auto 5% auto;
 }
 
-
-
-/* .posts {
-  width: 90%;
-  max-width: 700px;
-  display: grid;
-  grid-template:
-      repeat(auto-fit, minmax(393px, 1fr)) /
-      repeat(auto-fit, minmax(90vw, 1fr));
-} */
-
 .post {
   display: flex;
   flex-direction: column;
