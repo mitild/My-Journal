@@ -76,8 +76,7 @@ ul {
 ul a {
   font-weight: 600;
   text-decoration: none;
-  margin-left: .6em;
-  /* margin-left: 2.5em; */
+  margin-left: 2.5em;
 }
 
 .active {
